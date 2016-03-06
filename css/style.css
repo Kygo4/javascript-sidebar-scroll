@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font: 16px/1 'Microsoft YaHei',Arial,Helvetica,sans-serif;
+    background: #e9eaec;
+}
+.header{
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    border-bottom: 1px solid #d7d7d7;
+}
+#main{
+    position: relative;
+    width: 1024px;
+    margin: 35px auto;
+}
+#article{
+    position: relative;
+    height: 2000px;
+    margin-left: 350px;
+    background: #fff;
+}
+#sidebar{
+    position: absolute;
+    top: 0;
+    width: 315px;
+    height: 1000px;
+    background: #fff;
+}
+#footer{
+    background: #f2f2f2;
+    width: 100%;
+    height: 369px;
+}
